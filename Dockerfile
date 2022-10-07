@@ -1,7 +1,7 @@
 FROM caddy:builder-alpine AS builder
 
 RUN xcaddy build \
-        --with github.com/mholt/caddy-l4 \
+        --with github.com/dinglinxiao/caddy-l4 \
         --with github.com/mholt/caddy-dynamicdns \
         --with github.com/caddy-dns/openstack-designate \
         --with github.com/caddy-dns/azure \
